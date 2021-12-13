@@ -23,15 +23,4 @@ if (peso<100){
         console.log("o Nome da peça deve ter mais que 3 caracteres")
     }
 
-    switch(nomePeca.length){
-        Case 0:
-        console.log("O Nome da peça não pode ser vazio")
-        break;
-
-        Case 1:
-        Case 2:
-        Case 3:
-        
-        console.log("O Nome Da Peça Deve Conter Mais de Três Caracteres")
-        break;
-    }
+    
