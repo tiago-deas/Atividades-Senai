@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #C4C4C4;
+    background-color: #C4C4C4;    
 }
 header{
 height: 99px;
@@ -35,6 +35,9 @@ height: 99px;
     background-color: #686868;
     
 }
+.barra-opc a:hover{
+    color: white;
+}
 
 .menu {
     width: 1150px;
@@ -49,8 +52,11 @@ height: 99px;
     background-repeat: no-repeat;
     background-size: cover; 
 }
+body{
+    background-color: #C4C4C4;
+}
 
-.promo {
+.meio {
     display: flex;
   justify-content: center;
   align-items: center;
@@ -66,18 +72,13 @@ height: 99px;
 
 }
 
-.produtos {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .produtos img{
-    width: 150px;
-    height: auto;
+    width: 150px;   
     
 } 
-
-.secao-promocoes produtos container{
-    text-decoration: none;
+.linha-dois{    
+    margin-right: 20px;
+    margin-left: -220px;
+    margin-top: 40px;
+    
 }
